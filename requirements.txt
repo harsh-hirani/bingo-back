@@ -11,6 +11,8 @@ daphne
 # Redis channel layer
 channels-redis
 # Database (Postgres)
+djangorestframework-simplejwt
+
 psycopg2-binary
 
 # CORS (optional but recommended)
