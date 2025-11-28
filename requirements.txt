@@ -9,7 +9,7 @@ daphne
 
 # Redis channel layer
 channels-redis
-
+rest_framework
 # Database (Postgres)
 psycopg2-binary
 
