@@ -1,25 +1,27 @@
-# Django & Core
+# Django core
 django>=4.2
+djangorestframework
+djangorestframework-simplejwt
+
+# Environment variables
 django-environ
 dj-database-url
-djangorestframework
 
-# ASGI + websocket stack
+# ASGI / WebSockets
 channels
 daphne
 
-# Redis channel layer
+# Redis backend for Channels
 channels-redis
-# Database (Postgres)
-djangorestframework-simplejwt
 
+# PostgreSQL driver
 psycopg2-binary
 
-# CORS (optional but recommended)
+# CORS
 django-cors-headers
 
-# Deployment helpers
-gunicorn
-
-# Optional utilities
+# Static files
 whitenoise
+
+# Deploy helpers
+gunicorn
