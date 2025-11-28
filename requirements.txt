@@ -1,0 +1,23 @@
+# Django & Core
+django>=4.2
+django-environ
+dj-database-url
+
+# ASGI + websocket stack
+channels
+daphne
+
+# Redis channel layer
+channels-redis
+
+# Database (Postgres)
+psycopg2-binary
+
+# CORS (optional but recommended)
+django-cors-headers
+
+# Deployment helpers
+gunicorn
+
+# Optional utilities
+whitenoise
